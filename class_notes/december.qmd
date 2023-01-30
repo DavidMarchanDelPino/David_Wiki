@@ -1,0 +1,127 @@
+---
+title: "December 2022"
+---
+
+## **Class 12/12/2022: Introduction-who will you marry** 
+
+### Tool ChatGPT: Web tool 
+[ChatGPT](https://chat.openai.com/chat) is a model which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.
+
+### Quarto
+[Quarto](https://quarto.org/docs/guide/) is an open-source scientific and technical publishing system built on Pandoc
+It works with files .qmd (quarto mark down)
+
+### Recomended dependencies on a project with maven
+ - 1) **lombok** : Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more. 
+ - 2) **junit v.5** : JUnit 5 is the next generation of JUnit. The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java 8 and above, as well as enabling many different styles of testing.  
+
+### Lab excercice : Lab#MD01-1: Create and publish by Quarto
+
+```{mermaid}
+flowchart LR
+  A[Install VSCode] --> B[Install Quarto]
+  B --> C[Configure Repo GitHub and Git]
+  C --> D[Deploy Quarto on GH-Pages]
+
+```
+[Lab#MD01-1](/labs/Lab-MD01-1.qmd)
+
+## **Class 13/12/2022: Structure** 
+
+### Apps: VSCode, IntellJIdea, Quarto, GitHub, Git ...
+
+  - IntellJIdea option to create java projects but I use the VSCode to develop it.
+    - Structure of  the Project
+      - Tree : My project structure
+      - Pom : dependencies that must be on the root of the project
+      - Where is my project
+
+## **Class 14/12/2022: Scope** 
+
+- Comentary : GitHub update my project on my remote repository:
+
+      (Stage --> Commit --> Push)
+
+- My Commits stucture:
+
+      #[Nº]#Type#Description 
+### Class Java Structure:
+
+  public class Person {
+
+    - Fields --> declaration of the variables to define the class
+
+    - Constructor --> Witch values must have the objects of the class
+
+    - Methods --> Habilities of the Objects
+
+  }
+
+- Steps :
+
+  - Create test with Maven
+
+  - Add the depencies Junit, Lombok, Faker on the .pom 
+
+## **Class 15/12/2022: What is an Object?** 
+
+### Object on Java 
+
+  - A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes.
+
+### Composition / Inherence :
+
+- Composition :
+  The composition is one form of Association. The composition can be defined as an association in which one class contains another class and this contained class depends on the containing class in such a way that it cannot exist independently.
+
+  We have seen an example of a has-a relationship above. In that, we had a car object which has an engine. This is an example of composition. In this, an engine cannot exist independently without a car.
+
+  The composition is more restricted when compared to Aggregation. The composition is not a Java feature. It is mainly considered a design technique.
+
+- Inheritance :
+
+  Inheritance is a fundamental concept in object-oriented programming. It is the process of creating new classes from existing classes.
+
+  In other words, it is the process of deriving new classes from existing classes, which allows developers to reuse and extend the functionality of existing classes.
+
+
+
+```{mermaid}
+classDiagram
+    
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
+
+```
+
+```{mermaid}
+classDiagram
+
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
+
+```
