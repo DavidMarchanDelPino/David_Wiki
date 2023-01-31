@@ -58,6 +58,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -106,7 +109,18 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#class-31012023" id="toc-class-31012023" class="nav-link active" data-scroll-target="#class-31012023">Class 31/01/2023</a>
+  <ul class="collapse">
+  <li><a href="#borrow-borrowmanager-en-el-domino-storage" id="toc-borrow-borrowmanager-en-el-domino-storage" class="nav-link" data-scroll-target="#borrow-borrowmanager-en-el-domino-storage"><strong>Borrow &amp; BorrowManager (En el domino Storage)</strong></a></li>
+  <li><a href="#test" id="toc-test" class="nav-link" data-scroll-target="#test"><strong>Test</strong></a></li>
+  </ul></li>
+  <li><a href="#utils" id="toc-utils" class="nav-link" data-scroll-target="#utils"><strong>Utils</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -128,8 +142,150 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="class-31012023" class="level2">
+<h2 class="anchored" data-anchor-id="class-31012023">Class 31/01/2023</h2>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Goal move to spring boot</p>
+</div>
+</div>
+<p>We will use a method to create many objects (Book,User …)</p>
+<p>When working on a project, you must always take into account the pom</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We can make refactor in intelljidea to change the variables, objects and classes recursively.</p>
+</div>
+</div>
+<section id="borrow-borrowmanager-en-el-domino-storage" class="level3">
+<h3 class="anchored" data-anchor-id="borrow-borrowmanager-en-el-domino-storage"><strong>Borrow &amp; BorrowManager (En el domino Storage)</strong></h3>
+<section id="borrow" class="level4">
+<h4 class="anchored" data-anchor-id="borrow"><strong>–&gt; Borrow</strong></h4>
+<pre><code>@Data
+@AllArgsConstructor
+@NoArgsConstrutor
+public class Borrow{
+    private Date initialBorrow, dueDate, returnDate;
+}</code></pre>
+</section>
+</section>
+<section id="test" class="level3">
+<h3 class="anchored" data-anchor-id="test"><strong>Test</strong></h3>
+<p>How we define the borrow class and implement the tests.</p>
+<pre><code>public class makeBorrowTest{
+
+    @Test
+    public void createBorrowTest(){
+
+    }
+
+    @Test
+    public void createInputByConsoleBorrowTest(){
+        // String input with yes to borrow, select bok and proceed yes and borrow done
+        //UserInterface.start();
+        //assertEquals with new obkect Borrow created see if it exists in hashmap
+    }
+}</code></pre>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">flowchart TB
+  A[ Borrow? ] --&gt; B(yes)
+  B --&gt; C{ User? }
+  C --&gt; D[ fails : User? ]
+  D --&gt; C
+  C --&gt; E( ok : Displays User)
+  E --&gt; F[Book? ]
+  F --&gt; G(Displays book)
+  G --&gt; H[Proceed? ]
+  H --&gt; I(yes)
+  I --&gt; J[finish borrow]
+</pre>
+<div id="mermaid-tooltip-1" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="utils" class="level1">
+<h1><strong>Utils</strong></h1>
+<div class="cell" data-fig-width="2">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-2">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+</pre>
+<div id="mermaid-tooltip-2" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-fig-width="2">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-3">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+<div id="mermaid-tooltip-3" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-fig-width="4">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-4">sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice-&gt;&gt;John: Hello John, how are you?
+  loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts &lt;br/&gt;prevail!
+  John--&gt;&gt;Alice: Great!
+  John-&gt;&gt;Bob: How about you?
+  Bob--&gt;&gt;John: Jolly good!
+</pre>
+<div id="mermaid-tooltip-4" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
