@@ -125,3 +125,39 @@ classM ..|> classN : Realization
 classO .. classP : Link(Dashed)
 
 ```
+
+
+## **Class 16/12/2022: Static** 
+
+On Java SE **Static** "indicates that it belongs to the class itself, all instances of the class share the same field"
+
+## **Class 19/12/2022: Models (introduction)** 
+
+Objects are created with the "new" operator but can be implemented in more ways
+
+  - Clasic : Person carla = **new** Person();
+
+There will be classes that create other objects and others that do not.
+
+The whole structure of the project is called Model View Controller (MVC). 
+
+There is a mechanism called Singelton (single instance).
+
+## **Class 20/12/2022: GitHub & Quarto**
+
+I make this Quarto project published on GitHub
+
+## **Class 21/12/2022: **
+
+Thymeleaf --> modern server-side template engine
+
+## **Class 22/12/2022: **
+
+It is possible to have more than one constructor ("constructor overload"). With Loombok you can define a more compact class without having to implement the most essential methods.
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+## **Class 23/12/2022: Facing problems in different ways **
+
+
