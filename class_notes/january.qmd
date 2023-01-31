@@ -16,18 +16,51 @@ En el momento de trabajar en un proyecto hay que tener en cuenta siempre el pom
 Podemos hacer refactor en intelljidea para cambiar las variables, objetos y clases de manera recursiva.
 :::
 
-### Borrow & BorrowManager
+### **Borrow & BorrowManager (En el domino Storage)**
 
-En el domino Storage 
+#### **--> Borrow**
+    @Data
+    @AllArgsConstructor
+    @NoArgsConstrutor
+    public class Borrow{
+        private Date initialBorrow, dueDate, returnDate;
+    }
+ 
+### **Test**
 
+Como definimos la clase borrow e implementamos los test.
 
+    public class makeBorrowTest{
 
+        @Test
+        public void createBorrowTest(){
 
+        }
 
+        @Test
+        public void createInputByConsoleBorrowTest(){
+            // String input with yes to borrow, select bok and proceed yes and borrow done
+            //UserInterface.start();
+            //assertEquals with new obkect Borrow created see if it exists in hashmap
+        }
+    }
 
+```{mermaid}
+%%| fig-width: 6
+flowchart LR
+  A[ Borrow? ] --> B(yes)
+  B --> C{ User? }
+  C --> D[ fails : User? ]
+  D --> C
+  C --> E( ok : Displays User)
+  E --> F[Book? ]
+  F --> G(Displays book)
+  G --> H[Proceed? ]
+  H --> I(yes)
+  I --> J[finish borrow]
+```
 
-
-# Utils
+# **Utils**
 
 ```{mermaid}
 %%| fig-width: 2

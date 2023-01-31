@@ -5,3 +5,5 @@ title: Clases
 [December 2022](/class_notes/december.qmd)
 
 [January 2023](/class_notes/january.qmd)
+
+[Febraury 2023](/class_notes/febraury.qmd)
