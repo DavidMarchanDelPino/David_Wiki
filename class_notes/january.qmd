@@ -1,3 +1,66 @@
 ---
 title: "January 2023"
 ---
+
+## Class 31/01/2023
+
+::: {.callout-note}
+Objetivo pasar a spring boot 
+:::
+
+Usaremos un metodo para crear muchos obetos (Book,User ...)
+
+En el momento de trabajar en un proyecto hay que tener en cuenta siempre el pom
+
+::: {.callout-tip}
+Podemos hacer refactor en intelljidea para cambiar las variables, objetos y clases de manera recursiva.
+:::
+
+### Borrow & BorrowManager
+
+En el domino Storage 
+
+
+
+
+
+
+
+
+# Utils
+
+```{mermaid}
+%%| fig-width: 2
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+```
+
+
+```{mermaid}
+%%| fig-width: 2
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+```{mermaid}
+%%| fig-width: 4
+sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+    John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts <br/>prevail!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
+
+
+
+
