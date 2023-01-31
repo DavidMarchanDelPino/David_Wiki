@@ -5,15 +5,15 @@ title: "January 2023"
 ## Class 31/01/2023
 
 ::: {.callout-note}
-Objetivo pasar a spring boot 
+Goal move to spring boot
 :::
 
-Usaremos un metodo para crear muchos obetos (Book,User ...)
+We will use a method to create many objects (Book,User ...)
 
-En el momento de trabajar en un proyecto hay que tener en cuenta siempre el pom
+When working on a project, you must always take into account the pom
 
 ::: {.callout-tip}
-Podemos hacer refactor en intelljidea para cambiar las variables, objetos y clases de manera recursiva.
+We can make refactor in intelljidea to change the variables, objects and classes recursively.
 :::
 
 ### **Borrow & BorrowManager (En el domino Storage)**
@@ -28,7 +28,7 @@ Podemos hacer refactor en intelljidea para cambiar las variables, objetos y clas
  
 ### **Test**
 
-Como definimos la clase borrow e implementamos los test.
+How we define the borrow class and implement the tests.
 
     public class makeBorrowTest{
 
@@ -46,8 +46,7 @@ Como definimos la clase borrow e implementamos los test.
     }
 
 ```{mermaid}
-%%| fig-width: 6
-flowchart LR
+flowchart TB
   A[ Borrow? ] --> B(yes)
   B --> C{ User? }
   C --> D[ fails : User? ]
