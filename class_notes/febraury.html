@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Documentation - Febraury 2023</title>
+<title>Documentation Menu - Febraury 2023</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Documentation</span>
+    <span class="navbar-title">Documentation Menu</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -106,7 +106,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#class-1022023-libraryproject-define-priorities-and-code-test" id="toc-class-1022023-libraryproject-define-priorities-and-code-test" class="nav-link active" data-scroll-target="#class-1022023-libraryproject-define-priorities-and-code-test"><strong>Class 1/02/2023: LibraryProject: define priorities and code test</strong></a>
+  <ul class="collapse">
+  <li><a href="#sprint-zero-mock-up" id="toc-sprint-zero-mock-up" class="nav-link" data-scroll-target="#sprint-zero-mock-up">Sprint Zero: mock-up</a></li>
+  <li><a href="#random-ids" id="toc-random-ids" class="nav-link" data-scroll-target="#random-ids"><strong>Random ID’s</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -128,8 +138,109 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/February.jpeg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+<section id="class-1022023-libraryproject-define-priorities-and-code-test" class="level2">
+<h2 class="anchored" data-anchor-id="class-1022023-libraryproject-define-priorities-and-code-test"><strong>Class 1/02/2023: LibraryProject: define priorities and code test</strong></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/calse-01-02.png" class="img-fluid figure-img" style="width:150.0%"></p>
+</figure>
+</div>
+<p>📘 Linux Lab#SE03-2: Library/Book Sprint Zero</p>
+<p>Before define what a Sprint Zero really is, let’s see what it isn’t.</p>
+<ul>
+<li>A Sprint Zero is not the phase in which the team is put together. In order to conduct a Sprint in the first place, a team must already be in place.</li>
+<li>A Sprint Zero is not the phase for setting up infrastructure which should already be implemented or easily implemented on demand, but not as part of a Sprint Zero.</li>
+<li>A Sprint Zero should not involve adding products to a backlog or Consider Planning.</li>
+</ul>
+<p>The main goal of a Sprint Zero is to deliver some usable value that can be built upon by the next team. Sprint Zeros are required to:</p>
+<ul>
+<li>Create the project’s <strong>skeleton</strong>, including research spikes.</li>
+<li><strong>Keep design minimal</strong>.ep design minimal</li>
+<li>Develop a small number of <strong>stories</strong> to completion.</li>
+<li>Be low velocity and lightweight.</li>
+</ul>
+<p>More specifically, the deliverables of a Sprint Zero should be as follows:</p>
+<ul>
+<li>A <strong>usable</strong> piece of code, however small.</li>
+<li>A *+minimal** environment for writing code.</li>
+<li>A <strong>prioritization</strong> of features or a list of stories.</li>
+<li>A <strong>release plan</strong> assigning each story to a Sprint.</li>
+<li>A plan for the most likely implementation of <strong>features</strong>.</li>
+</ul>
+<section id="sprint-zero-mock-up" class="level3">
+<h3 class="anchored" data-anchor-id="sprint-zero-mock-up">Sprint Zero: mock-up</h3>
+<pre><code>Options:
+
+1- Make a Borrow
+
+2- User Management
+
+3- Book Management
+
+4- Quit
+
+Option?
+
+'Borrow'
+
+User?
+
+'159742OPI'
+
+Book?
+
+'Anna Karenina'
+
+Proceed, are your sure?
+
+'Yes'
+
+Borrow made, borrowId: RER7567, dueDate: 15/02/2023 
+
+Options:
+
+1- Make a Borrow
+
+2- User Management
+
+3- Book Management
+
+4- Quit
+
+Option?
+
+'Quit'</code></pre>
+</section>
+<section id="random-ids" class="level3">
+<h3 class="anchored" data-anchor-id="random-ids"><strong>Random ID’s</strong></h3>
+<p>Calss UUID creates id with 128 bit value</p>
+<pre><code>Public static String = createID(){
+    UUID uuid = UUID.randomUUID();
+    String id = uuid.toString();
+    return id;
+}</code></pre>
+<div class="callout-comment callout callout-style-default no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Comment
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We need an random ID for all the objects that requires it.</p>
+</div>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

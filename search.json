@@ -14,11 +14,11 @@
     "text": "December 2022\nJanuary 2023\nFebraury 2023"
   },
   {
-    "objectID": "class_notes/december.html",
-    "href": "class_notes/december.html",
+    "objectID": "class_notes/december.html#class-12122022-introduction-who-will-you-marry",
+    "href": "class_notes/december.html#class-12122022-introduction-who-will-you-marry",
     "title": "December 2022",
-    "section": "",
-    "text": "ChatGPT is a model which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.\n\n\n\nQuarto is an open-source scientific and technical publishing system built on Pandoc It works with files .qmd (quarto mark down)\n\n\n\n\n\nlombok : Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.\n\n\njunit v.5 : JUnit 5 is the next generation of JUnit. The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java 8 and above, as well as enabling many different styles of testing.\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Install VSCode] --> B[Install Quarto]\n  B --> C[Configure Repo GitHub and Git]\n  C --> D[Deploy Quarto on GH-Pages]\n\n\n\n\n\n\n\n\n\nLab#MD01-1"
+    "section": "Class 12/12/2022: Introduction-who will you marry",
+    "text": "Class 12/12/2022: Introduction-who will you marry\n\nTool ChatGPT: Web tool\nChatGPT is a model which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.\n\n\nQuarto\nQuarto is an open-source scientific and technical publishing system built on Pandoc It works with files .qmd (quarto mark down)\n\n\nRecomended dependencies on a project with maven\n\n\nlombok : Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.\n\n\njunit v.5 : JUnit 5 is the next generation of JUnit. The goal is to create an up-to-date foundation for developer-side testing on the JVM. This includes focusing on Java 8 and above, as well as enabling many different styles of testing.\n\n\n\n\nLab excercice : Lab#MD01-1: Create and publish by Quarto\n\n\n\n\nflowchart LR\n  A[Install VSCode] --> B[Install Quarto]\n  B --> C[Configure Repo GitHub and Git]\n  C --> D[Deploy Quarto on GH-Pages]\n\n\n\n\n\n\n\n\n\nLab#MD01-1"
   },
   {
     "objectID": "class_notes/december.html#class-13122022-structure",
@@ -84,11 +84,11 @@
     "text": "Class 23/12/2022: Facing problems in different ways"
   },
   {
-    "objectID": "class_notes/january.html",
-    "href": "class_notes/january.html",
+    "objectID": "class_notes/january.html#class-10012023-javase",
+    "href": "class_notes/january.html#class-10012023-javase",
     "title": "January 2023",
-    "section": "",
-    "text": "Objective : JavaSE –> Spring\nWe can pass the model that creates objects @Entity\nSpringInitializr tool Pom is used to scale and to create different profiles.\nJava Faker : create fake objects in an easy way."
+    "section": "Class 10/01/2023: JavaSE ",
+    "text": "Class 10/01/2023: JavaSE \nObjective : JavaSE –> Spring\nWe can pass the model that creates objects @Entity\nSpringInitializr tool Pom is used to scale and to create different profiles.\nJava Faker : create fake objects in an easy way."
   },
   {
     "objectID": "class_notes/january.html#class-11012023-javase",
@@ -112,11 +112,18 @@
     "text": "Class 31/01/2023: \n\n\n\n\n\n\nNote\n\n\n\nGoal move to spring boot\n\n\nWe will use a method to create many objects (Book,User …)\nWhen working on a project, you must always take into account the pom\n\n\n\n\n\n\nTip\n\n\n\nWe can make refactor in intelljidea to change the variables, objects and classes recursively.\n\n\n\nBorrow & BorrowManager (En el domino Storage)\n\n–> Borrow\n@Data\n@AllArgsConstructor\n@NoArgsConstrutor\npublic class Borrow{\n    private Date initialBorrow, dueDate, returnDate;\n}\n\n\n\nTest\nHow we define the borrow class and implement the tests.\npublic class makeBorrowTest{\n\n    @Test\n    public void createBorrowTest(){\n\n    }\n\n    @Test\n    public void createInputByConsoleBorrowTest(){\n        // String input with yes to borrow, select bok and proceed yes and borrow done\n        //UserInterface.start();\n        //assertEquals with new obkect Borrow created see if it exists in hashmap\n    }\n}\n\n\n\n\nflowchart TB\n  A[ Borrow? ] --> B(yes)\n  B --> C{ User? }\n  C --> D[ fails : User? ]\n  D --> C\n  C --> E( ok : Displays User)\n  E --> F[Book? ]\n  F --> G(Displays book)\n  G --> H[Proceed? ]\n  H --> I(yes)\n  I --> J[finish borrow]"
   },
   {
+    "objectID": "class_notes/febraury.html#class-1022023-libraryproject-define-priorities-and-code-test",
+    "href": "class_notes/febraury.html#class-1022023-libraryproject-define-priorities-and-code-test",
+    "title": "Febraury 2023",
+    "section": "Class 1/02/2023: LibraryProject: define priorities and code test",
+    "text": "Class 1/02/2023: LibraryProject: define priorities and code test\n\n\n\n\n\n📘 Linux Lab#SE03-2: Library/Book Sprint Zero\nBefore define what a Sprint Zero really is, let’s see what it isn’t.\n\nA Sprint Zero is not the phase in which the team is put together. In order to conduct a Sprint in the first place, a team must already be in place.\nA Sprint Zero is not the phase for setting up infrastructure which should already be implemented or easily implemented on demand, but not as part of a Sprint Zero.\nA Sprint Zero should not involve adding products to a backlog or Consider Planning.\n\nThe main goal of a Sprint Zero is to deliver some usable value that can be built upon by the next team. Sprint Zeros are required to:\n\nCreate the project’s skeleton, including research spikes.\nKeep design minimal.ep design minimal\nDevelop a small number of stories to completion.\nBe low velocity and lightweight.\n\nMore specifically, the deliverables of a Sprint Zero should be as follows:\n\nA usable piece of code, however small.\nA *+minimal** environment for writing code.\nA prioritization of features or a list of stories.\nA release plan assigning each story to a Sprint.\nA plan for the most likely implementation of features.\n\n\nSprint Zero: mock-up\nOptions:\n\n1- Make a Borrow\n\n2- User Management\n\n3- Book Management\n\n4- Quit\n\nOption?\n\n'Borrow'\n\nUser?\n\n'159742OPI'\n\nBook?\n\n'Anna Karenina'\n\nProceed, are your sure?\n\n'Yes'\n\nBorrow made, borrowId: RER7567, dueDate: 15/02/2023 \n\nOptions:\n\n1- Make a Borrow\n\n2- User Management\n\n3- Book Management\n\n4- Quit\n\nOption?\n\n'Quit'\n\n\nRandom ID’s\nCalss UUID creates id with 128 bit value\nPublic static String = createID(){\n    UUID uuid = UUID.randomUUID();\n    String id = uuid.toString();\n    return id;\n}\n\n\n\n\n\n\nComment\n\n\n\nWe need an random ID for all the objects that requires it."
+  },
+  {
     "objectID": "index.html#what-you-can-fin-on-this-quarto-web",
     "href": "index.html#what-you-can-fin-on-this-quarto-web",
     "title": "Author: David Marchan del Pino",
     "section": "What you can fin on this Quarto web?",
-    "text": "What you can fin on this Quarto web?\n\n\nMy course notes fom the CIFO course\n\n\nThe resolution of the laboratories and the links of my repos with the code\n\n\nTo-do task that I consider or other task provided by the profesor\n\n\nSome tools that I use to perform my solutions and other functionalities that I am curious abaut"
+    "text": "What you can fin on this Quarto web?\n\n\nMy course notes fom the CIFO course\n\n\nThe resolution of the laboratories and the links of my repos with the code\n\n\nTo-do task that I consider or other task provided by the profesor (not implemented)\n\n\nSome tools that I use to perform my solutions and other functionalities that I am curious abaut (to-do)"
   },
   {
     "objectID": "labs/Lab-MD01-1.html",
