@@ -4,6 +4,9 @@ project:
 website:
   title: "Documentation Menu"
   navbar:
+    background: secondary
+    style: "floating"
+    search: true    
     left:
       - href: index.qmd
         text: Home
@@ -19,6 +22,23 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    ###
+    toc-depth: 5
+    email-obfuscation: javascript
+    smooth-scroll: true
+    #backgroundcolor: black
+    code-link: true
+    #code-block-bg: "#29465B"
+    code-line-numbers: "true"
+    code-overflow: "wrap" 
 
+###
+execute:
+  cache: true
+  freeze: true
+
+
+
+highlight-style: breezedark
 
 
