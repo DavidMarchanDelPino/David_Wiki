@@ -1,3 +1,94 @@
 ---
 title: Febraury 2023
 ---
+
+![](../img/February.jpeg){fig-align="center" width=100%}
+
+## **Class 1/02/2023: LibraryProject: define priorities and code test**
+
+![](../img/calse-01-02.png){fig-align="center" width=150%}
+
+
+📘 Linux Lab#SE03-2: Library/Book Sprint Zero
+
+Before define what a Sprint Zero really is, let’s see what it isn’t.
+
+- A Sprint Zero is not the phase in which the team is put together. In order to conduct a Sprint in the first place, a team must already be in place.
+- A Sprint Zero is not the phase for setting up infrastructure which should already be implemented or easily implemented on demand, but not as part of a Sprint Zero.
+- A Sprint Zero should not involve adding products to a backlog or Consider Planning.
+
+The main goal of a Sprint Zero is to deliver some usable value that can be built upon by the next team. Sprint Zeros are required to:
+
+- Create the project’s **skeleton**, including research spikes.
+- **Keep design minimal**.ep design minimal
+- Develop a small number of **stories** to completion.
+- Be low velocity and lightweight.
+
+More specifically, the deliverables of a Sprint Zero should be as follows:
+
+- A **usable** piece of code, however small.
+- A *+minimal** environment for writing code.
+- A **prioritization** of features or a list of stories.
+- A **release plan** assigning each story to a Sprint.
+- A plan for the most likely implementation of **features**.
+
+
+### Sprint Zero: mock-up
+
+    Options:
+
+    1- Make a Borrow
+
+    2- User Management
+
+    3- Book Management
+
+    4- Quit
+
+    Option?
+
+    'Borrow'
+
+    User?
+
+    '159742OPI'
+
+    Book?
+
+    'Anna Karenina'
+
+    Proceed, are your sure?
+
+    'Yes'
+    
+    Borrow made, borrowId: RER7567, dueDate: 15/02/2023 
+
+    Options:
+
+    1- Make a Borrow
+
+    2- User Management
+
+    3- Book Management
+
+    4- Quit
+
+    Option?
+
+    'Quit'
+
+### **Random ID's**
+
+Calss UUID creates id with 128 bit value
+
+    Public static String = createID(){
+        UUID uuid = UUID.randomUUID();
+        String id = uuid.toString();
+        return id;
+    }
+
+::: {.callout-comment}
+We need an random ID for all the objects that requires it. 
+:::
+
+

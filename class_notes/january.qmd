@@ -2,6 +2,8 @@
 title: "January 2023"
 ---
 
+![](../img/january.png){fig-align="mid" width=50%}
+
 ## **Class 10/01/2023: JavaSE **
 
 Objective : JavaSE --> Spring
