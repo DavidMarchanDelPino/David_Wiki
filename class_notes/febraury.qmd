@@ -91,4 +91,25 @@ Calss UUID creates id with 128 bit value
 We need an random ID for all the objects that requires it. 
 :::
 
+## **Class 2/02/2023: Quarto: using API Rest with D3.js**
+
+Implementar dentro de quarto el ejercicio o entrada observable (Quarto Markdown: code & data)
+
+Rest tipo de arquitectura para hacer webs
+
+**REST (Representational State Transfer)**
+
+- Rest is an architectural style for building web services.
+
+- It is based on a client-server model, where a client sends a request to a server and the server sends a response.
+
+- RESTful APIs use HTTP requests to POST (create), PUT (update), GET (read), and DELETE (delete) data.
+
+- A RESTful API is a simple, consistent, and easy-to-use way for applications to communicate with each other over the internet.
+
+Ventajas apirest bien para volumen y complejidad pero no para tiempo real, usariamos en el ultimo caso websocket
+
+
+
+
 
