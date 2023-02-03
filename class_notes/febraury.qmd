@@ -110,6 +110,11 @@ Rest tipo de arquitectura para hacer webs
 Ventajas apirest bien para volumen y complejidad pero no para tiempo real, usariamos en el ultimo caso websocket
 
 
+## **Class 03/02/2023: SCRUM, Vocabulary, Four-Hats & Devops CIFO**
 
 
+- SCRUM: delete (step 2 spaceX)
+- Vocabulary
+- Four-Hats: Project/DDD/UML/code
+- Cifo Java AppWeb Service Infrastructure: servers, services, network, URL	
 
