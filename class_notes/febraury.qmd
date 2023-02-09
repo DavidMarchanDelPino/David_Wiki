@@ -118,3 +118,153 @@ Ventajas apirest bien para volumen y complejidad pero no para tiempo real, usari
 - Four-Hats: Project/DDD/UML/code
 - Cifo Java AppWeb Service Infrastructure: servers, services, network, URL	
 
+## **Class 08/02/2023: JavaSE Laboratory**
+
+El viernes haremos introducción a spring añadiendo unas 5 dependencias mas ademas de Faker, Lombook y Junit
+
+Hoy continuamos con el laboratorio del día 01/02/2023
+
+Transformar en tabla:
+
+(1st Column)Spring Backlog:
+
+<p style="text-align:left" class = "table_Colored_Red"> CODE </p>
+<p style="text-align:left" class = "table_Colored_Blue"> UMl</p>
+<p style="text-align:left" class = "table_Colored_Green"> PROJECT</p>
+<p style="text-align:left" class = "table_Colored_Magenta"> DOMAIN</p>
+
+
+- (Code) TestBorrow x
+- (UML) UML Manager
+- (UML) UMLCore
+- (Project) Use Case
+- (Project) MockUp
+- (Project) Documentation
+- (Domains) Common Language
+- (Code) BookManager x
+- (Code) BorrowManager x
+- (Code) UserManager x
+- (Code) AuthorManager x
+- (Code) Fakers x
+- (Code) Refactor UserInterface x
+- (Domain) Define userId (UUID)
+- (Project) Bussiness Model
+- (Project) Git Tech
+- (Project) Git Documentation
+- (Project) Git Roles
+- (Code) Git INIT x
+- (Project & UML) Functional Diagramm
+- (Poject) Storage
+- (Project) Sprint Goal
+- (Project) The concept of done
+- (Project) Release Plan
+- (Code) Sandbox x
+
+(2st To-do)Spring Backlog:
+
+(3st Doing)Spring Backlog:
+
+(4st Done)Spring Backlog:
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center" >Spring Backlog</th>
+      <th style="text-align:center">To-do</th>
+      <th style="text-align:center">Doing</th>
+      <th style="text-align:center">Done</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="table_Colored_Red">TestBorrow</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">BookManager</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">BorrowManager</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">UserManager</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">AuthorManager</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">Fakers</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">Refactor UserInterface</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">Git INIT</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      <td class="table_Colored_Red">Sandbox</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+      <td style="text-align:center">###</td>
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      
+    </tr>
+  </tbody>
+</table>
+
+
+## **Class 09/02/2023: JavaSE Laboratory**
+
