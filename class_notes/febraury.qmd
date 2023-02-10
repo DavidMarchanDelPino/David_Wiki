@@ -268,3 +268,151 @@ Transformar en tabla:
 
 ## **Class 09/02/2023: JavaSE Laboratory**
 
+## **Class 10/02/2023: **
+
+Wraper Optional ejemplo y explicación
+
+java.util.Optional es una clase que se introdujo en Java 8 y se utiliza para representar valores opcionales. Anteriormente, para representar valores que pueden o no estar presentes, se utilizaba null, lo que a menudo resultaba en errores de NullPointerException. Con Optional, puedes representar valores opcionales de una manera más segura y fácil de manejar.
+
+Optional es un contenedor que puede o no tener un valor dentro. Si un Optional contiene un valor, se dice que está "presente", de lo contrario, se dice que está "vacío". Puedes usar métodos como of() o ofNullable() para crear un Optional con un valor dentro, y empty() para crear un Optional vacío.
+
+Una de las principales ventajas de usar Optional es que te permite manejar el caso en el que un valor puede no estar presente de manera más clara y legible. Por ejemplo, puedes usar el método orElse() para proporcionar un valor por defecto si el Optional está vacío, o el método orElseGet() para proporcionar un valor por defecto a través de un proveedor.
+
+En resumen, java.util.Optional es una clase que puede ayudarte a escribir código más seguro y legible al trabajar con valores opcionales en Java.
+
+
+
+<pre class="code-block">
+<code class="java">
+
+  import java.util.Optional;
+
+  public class OptionalExample {
+      public static void main(String[] args) {
+          // Crear un Optional vacío
+          Optional<String> empty = Optional.empty();
+          System.out.println("Empty Optional: " + empty);
+          
+          // Crear un Optional con un valor
+          Optional<String> value = Optional.of("Value");
+          System.out.println("Optional with value: " + value);
+          
+          // Crear un Optional a partir de un valor que puede ser nulo
+          String nullValue = null;
+          Optional<String> optionalNull = Optional.ofNullable(nullValue);
+          System.out.println("Optional from null value: " + optionalNull);
+          
+          // Obtener el valor dentro de un Optional
+          String val = value.get();
+          System.out.println("Value inside Optional: " + val);
+          
+          // Probar si un Optional está presente
+          boolean isPresent = value.isPresent();
+          System.out.println("Is value present? " + isPresent);
+          
+          // Proporcionar un valor por defecto si un Optional está vacío
+          String defaultValue = empty.orElse("Default Value");
+          System.out.println("Value from empty Optional with default: " + defaultValue);
+      }
+  }
+</code>
+</pre>
+
+
+El resultado de ejecutar este código sería:
+
+```java
+  Empty Optional: Optional.empty
+  Optional with value: Optional[Value]
+  Optional from null value: Optional.empty
+  Value inside Optional: Value
+  Is value present? true
+  Value from empty Optional with default: Default Value
+
+```
+
+### **Interfaces**
+
+Solemos empezar por lo concreto e ir a lo general, no obstante es conveniente entender que la programacion tiene que ser vista como el uso de entidades más abstractas con funcionalidades que pueden variar dependiendo del scope.
+
+In Java, an interface is a blueprint for classes. It specifies a set of methods that a class must implement, but it does not provide any implementation for these methods. An interface is defined using the interface keyword, and it can contain method signatures (declarations), constant variables, and default methods (methods with a default implementation).
+
+Here's an example of an interface in Java:
+
+```java
+public interface Shape {
+   double PI = 3.14;
+
+   double calculateArea();
+
+   double calculatePerimeter();
+}
+```
+In this example, the Shape interface defines two methods calculateArea and calculatePerimeter that any class that implements this interface must provide an implementation for. The interface also defines a constant PI that can be used by any class that implements this interface.
+
+A class that implements an interface must provide an implementation for all of the methods declared in the interface. Here's an example of a class that implements the Shape interface:
+
+```java
+public class Circle implements Shape {
+   private double radius;
+
+   public Circle(double radius) {
+      this.radius = radius;
+   }
+
+   @Override
+   public double calculateArea() {
+      return PI * radius * radius;
+   }
+
+   @Override
+   public double calculatePerimeter() {
+      return 2 * PI * radius;
+   }
+}
+````
+
+In this example, the Circle class implements the Shape interface and provides implementations for the calculateArea and calculatePerimeter methods. The Circle class can now be used wherever a Shape is expected. This allows for a degree of polymorphism and code reuse, as the specific type of Shape being used can be changed at runtime, as long as it implements the Shape interface.
+
+
+Here's an example of using an interface in Java:
+
+```java
+Javapublic interface Shape {
+   double PI = 3.14;
+
+   double calculateArea();
+
+   double calculatePerimeter();
+}
+
+public class Circle implements Shape {
+   private double radius;
+
+   public Circle(double radius) {
+      this.radius = radius;
+   }
+
+   @Override
+   public double calculateArea() {
+      return PI * radius * radius;
+   }
+
+   @Override
+   public double calculatePerimeter() {
+      return 2 * PI * radius;
+   }
+}
+
+public class Main {
+   public static void main(String[] args) {
+      Shape shape = new Circle(5.0);
+      System.out.println("Area of the circle: " + shape.calculateArea());
+      System.out.println("Perimeter of the circle: " + shape.calculatePerimeter());
+   }
+}
+```
+
+In this example, we first define the Shape interface with two methods calculateArea and calculatePerimeter. Then, we create a class Circle that implements the Shape interface and provides implementations for the methods defined in the interface. Finally, in the Main class, we create an object of the Circle class and use it as if it were an object of the Shape interface.
+
+You can also have multiple classes implementing the same interface, and you can use them interchangeably as long as they are referenced as objects of the interface type.
