@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -58,6 +121,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -111,9 +175,17 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#class-1022023-libraryproject-define-priorities-and-code-test" id="toc-class-1022023-libraryproject-define-priorities-and-code-test" class="nav-link active" data-scroll-target="#class-1022023-libraryproject-define-priorities-and-code-test"><strong>Class 1/02/2023: LibraryProject: define priorities and code test</strong></a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#sprint-zero-mock-up" id="toc-sprint-zero-mock-up" class="nav-link" data-scroll-target="#sprint-zero-mock-up">Sprint Zero: mock-up</a></li>
   <li><a href="#random-ids" id="toc-random-ids" class="nav-link" data-scroll-target="#random-ids"><strong>Random ID’s</strong></a></li>
+  </ul></li>
+  <li><a href="#class-2022023-quarto-using-api-rest-with-d3.js" id="toc-class-2022023-quarto-using-api-rest-with-d3.js" class="nav-link" data-scroll-target="#class-2022023-quarto-using-api-rest-with-d3.js"><strong>Class 2/02/2023: Quarto: using API Rest with D3.js</strong></a></li>
+  <li><a href="#class-03022023-scrum-vocabulary-four-hats-devops-cifo" id="toc-class-03022023-scrum-vocabulary-four-hats-devops-cifo" class="nav-link" data-scroll-target="#class-03022023-scrum-vocabulary-four-hats-devops-cifo"><strong>Class 03/02/2023: SCRUM, Vocabulary, Four-Hats &amp; Devops CIFO</strong></a></li>
+  <li><a href="#class-08022023-javase-laboratory" id="toc-class-08022023-javase-laboratory" class="nav-link" data-scroll-target="#class-08022023-javase-laboratory"><strong>Class 08/02/2023: JavaSE Laboratory</strong></a></li>
+  <li><a href="#class-09022023-javase-laboratory" id="toc-class-09022023-javase-laboratory" class="nav-link" data-scroll-target="#class-09022023-javase-laboratory"><strong>Class 09/02/2023: JavaSE Laboratory</strong></a></li>
+  <li><a href="#class-10022023" id="toc-class-10022023" class="nav-link" data-scroll-target="#class-10022023"><strong>Class 10/02/2023: </strong></a>
+  <ul>
+  <li><a href="#interfaces" id="toc-interfaces" class="nav-link" data-scroll-target="#interfaces"><strong>Interfaces</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -237,6 +309,379 @@ Comment
 <p>We need an random ID for all the objects that requires it.</p>
 </div>
 </div>
+</section>
+</section>
+<section id="class-2022023-quarto-using-api-rest-with-d3.js" class="level2">
+<h2 class="anchored" data-anchor-id="class-2022023-quarto-using-api-rest-with-d3.js"><strong>Class 2/02/2023: Quarto: using API Rest with D3.js</strong></h2>
+<p>Implementar dentro de quarto el ejercicio o entrada observable (Quarto Markdown: code &amp; data)</p>
+<p>Rest tipo de arquitectura para hacer webs</p>
+<p><strong>REST (Representational State Transfer)</strong></p>
+<ul>
+<li><p>Rest is an architectural style for building web services.</p></li>
+<li><p>It is based on a client-server model, where a client sends a request to a server and the server sends a response.</p></li>
+<li><p>RESTful APIs use HTTP requests to POST (create), PUT (update), GET (read), and DELETE (delete) data.</p></li>
+<li><p>A RESTful API is a simple, consistent, and easy-to-use way for applications to communicate with each other over the internet.</p></li>
+</ul>
+<p>Ventajas apirest bien para volumen y complejidad pero no para tiempo real, usariamos en el ultimo caso websocket</p>
+</section>
+<section id="class-03022023-scrum-vocabulary-four-hats-devops-cifo" class="level2">
+<h2 class="anchored" data-anchor-id="class-03022023-scrum-vocabulary-four-hats-devops-cifo"><strong>Class 03/02/2023: SCRUM, Vocabulary, Four-Hats &amp; Devops CIFO</strong></h2>
+<ul>
+<li>SCRUM: delete (step 2 spaceX)</li>
+<li>Vocabulary</li>
+<li>Four-Hats: Project/DDD/UML/code</li>
+<li>Cifo Java AppWeb Service Infrastructure: servers, services, network, URL</li>
+</ul>
+</section>
+<section id="class-08022023-javase-laboratory" class="level2">
+<h2 class="anchored" data-anchor-id="class-08022023-javase-laboratory"><strong>Class 08/02/2023: JavaSE Laboratory</strong></h2>
+<p>El viernes haremos introducción a spring añadiendo unas 5 dependencias mas ademas de Faker, Lombook y Junit</p>
+<p>Hoy continuamos con el laboratorio del día 01/02/2023</p>
+<p>Transformar en tabla:</p>
+<p>(1st Column)Spring Backlog:</p>
+
+<p style="text-align:left" class="table_Colored_Red">
+CODE
+</p>
+
+<p style="text-align:left" class="table_Colored_Blue">
+UMl
+</p>
+
+<p style="text-align:left" class="table_Colored_Green">
+PROJECT
+</p>
+
+<p style="text-align:left" class="table_Colored_Magenta">
+DOMAIN
+</p>
+<ul>
+<li>(Code) TestBorrow x</li>
+<li>(UML) UML Manager</li>
+<li>(UML) UMLCore</li>
+<li>(Project) Use Case</li>
+<li>(Project) MockUp</li>
+<li>(Project) Documentation</li>
+<li>(Domains) Common Language</li>
+<li>(Code) BookManager x</li>
+<li>(Code) BorrowManager x</li>
+<li>(Code) UserManager x</li>
+<li>(Code) AuthorManager x</li>
+<li>(Code) Fakers x</li>
+<li>(Code) Refactor UserInterface x</li>
+<li>(Domain) Define userId (UUID)</li>
+<li>(Project) Bussiness Model</li>
+<li>(Project) Git Tech</li>
+<li>(Project) Git Documentation</li>
+<li>(Project) Git Roles</li>
+<li>(Code) Git INIT x</li>
+<li>(Project &amp; UML) Functional Diagramm</li>
+<li>(Poject) Storage</li>
+<li>(Project) Sprint Goal</li>
+<li>(Project) The concept of done</li>
+<li>(Project) Release Plan</li>
+<li>(Code) Sandbox x</li>
+</ul>
+<p>(2st To-do)Spring Backlog:</p>
+<p>(3st Doing)Spring Backlog:</p>
+<p>(4st Done)Spring Backlog:</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">
+Spring Backlog
+</th>
+<th style="text-align:center">
+To-do
+</th>
+<th style="text-align:center">
+Doing
+</th>
+<th style="text-align:center">
+Done
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+
+<td class="table_Colored_Red">
+TestBorrow
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+BookManager
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+BorrowManager
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+UserManager
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+AuthorManager
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+Fakers
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+Refactor UserInterface
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+Git INIT
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+
+<td class="table_Colored_Red">
+Sandbox
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+<td style="text-align:center">
+###
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+</tbody>
+
+</table>
+</section>
+<section id="class-09022023-javase-laboratory" class="level2">
+<h2 class="anchored" data-anchor-id="class-09022023-javase-laboratory"><strong>Class 09/02/2023: JavaSE Laboratory</strong></h2>
+</section>
+<section id="class-10022023" class="level2">
+<h2 class="anchored" data-anchor-id="class-10022023"><strong>Class 10/02/2023: </strong></h2>
+<p>Wraper Optional ejemplo y explicación</p>
+<p>java.util.Optional es una clase que se introdujo en Java 8 y se utiliza para representar valores opcionales. Anteriormente, para representar valores que pueden o no estar presentes, se utilizaba null, lo que a menudo resultaba en errores de NullPointerException. Con Optional, puedes representar valores opcionales de una manera más segura y fácil de manejar.</p>
+<p>Optional es un contenedor que puede o no tener un valor dentro. Si un Optional contiene un valor, se dice que está “presente”, de lo contrario, se dice que está “vacío”. Puedes usar métodos como of() o ofNullable() para crear un Optional con un valor dentro, y empty() para crear un Optional vacío.</p>
+<p>Una de las principales ventajas de usar Optional es que te permite manejar el caso en el que un valor puede no estar presente de manera más clara y legible. Por ejemplo, puedes usar el método orElse() para proporcionar un valor por defecto si el Optional está vacío, o el método orElseGet() para proporcionar un valor por defecto a través de un proveedor.</p>
+<p>En resumen, java.util.Optional es una clase que puede ayudarte a escribir código más seguro y legible al trabajar con valores opcionales en Java.</p>
+<pre class="code-block"><code class="java">
+
+  import java.util.Optional;
+
+  public class OptionalExample {
+      public static void main(String[] args) {
+          // Crear un Optional vacío
+          Optional<string> empty = Optional.empty();
+          System.out.println("Empty Optional: " + empty);
+          
+          // Crear un Optional con un valor
+          Optional<string> value = Optional.of("Value");
+          System.out.println("Optional with value: " + value);
+          
+          // Crear un Optional a partir de un valor que puede ser nulo
+          String nullValue = null;
+          Optional<string> optionalNull = Optional.ofNullable(nullValue);
+          System.out.println("Optional from null value: " + optionalNull);
+          
+          // Obtener el valor dentro de un Optional
+          String val = value.get();
+          System.out.println("Value inside Optional: " + val);
+          
+          // Probar si un Optional está presente
+          boolean isPresent = value.isPresent();
+          System.out.println("Is value present? " + isPresent);
+          
+          // Proporcionar un valor por defecto si un Optional está vacío
+          String defaultValue = empty.orElse("Default Value");
+          System.out.println("Value from empty Optional with default: " + defaultValue);
+      }
+  }
+</string></string></string></code>
+</pre>
+<p>El resultado de ejecutar este código sería:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource java number-lines code-with-copy"><code class="sourceCode java"><span id="cb3-1"><a href="#cb3-1"></a>  Empty Optional<span class="op">:</span> Optional<span class="op">.</span><span class="fu">empty</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a>  Optional with value<span class="op">:</span> Optional<span class="op">[</span>Value<span class="op">]</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a>  Optional from <span class="kw">null</span> value<span class="op">:</span> Optional<span class="op">.</span><span class="fu">empty</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a>  Value inside Optional<span class="op">:</span> Value</span>
+<span id="cb3-5"><a href="#cb3-5"></a>  Is value present<span class="op">?</span> <span class="kw">true</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a>  Value from empty Optional with <span class="kw">default</span><span class="op">:</span> Default Value</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="interfaces" class="level3">
+<h3 class="anchored" data-anchor-id="interfaces"><strong>Interfaces</strong></h3>
+<p>Solemos empezar por lo concreto e ir a lo general, no obstante es conveniente entender que la programacion tiene que ser vista como el uso de entidades más abstractas con funcionalidades que pueden variar dependiendo del scope.</p>
+<p>In Java, an interface is a blueprint for classes. It specifies a set of methods that a class must implement, but it does not provide any implementation for these methods. An interface is defined using the interface keyword, and it can contain method signatures (declarations), constant variables, and default methods (methods with a default implementation).</p>
+<p>Here’s an example of an interface in Java:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource java number-lines code-with-copy"><code class="sourceCode java"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">public</span> <span class="kw">interface</span> <span class="bu">Shape</span> <span class="op">{</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>   <span class="dt">double</span> PI <span class="op">=</span> <span class="fl">3.14</span><span class="op">;</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a></span>
+<span id="cb4-4"><a href="#cb4-4"></a>   <span class="dt">double</span> <span class="fu">calculateArea</span><span class="op">();</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a></span>
+<span id="cb4-6"><a href="#cb4-6"></a>   <span class="dt">double</span> <span class="fu">calculatePerimeter</span><span class="op">();</span></span>
+<span id="cb4-7"><a href="#cb4-7"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In this example, the Shape interface defines two methods calculateArea and calculatePerimeter that any class that implements this interface must provide an implementation for. The interface also defines a constant PI that can be used by any class that implements this interface.</p>
+<p>A class that implements an interface must provide an implementation for all of the methods declared in the interface. Here’s an example of a class that implements the Shape interface:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource java number-lines code-with-copy"><code class="sourceCode java"><span id="cb5-1"><a href="#cb5-1"></a><span class="kw">public</span> <span class="kw">class</span> Circle <span class="kw">implements</span> <span class="bu">Shape</span> <span class="op">{</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a>   <span class="kw">private</span> <span class="dt">double</span> radius<span class="op">;</span></span>
+<span id="cb5-3"><a href="#cb5-3"></a></span>
+<span id="cb5-4"><a href="#cb5-4"></a>   <span class="kw">public</span> <span class="fu">Circle</span><span class="op">(</span><span class="dt">double</span> radius<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb5-5"><a href="#cb5-5"></a>      <span class="kw">this</span><span class="op">.</span><span class="fu">radius</span> <span class="op">=</span> radius<span class="op">;</span></span>
+<span id="cb5-6"><a href="#cb5-6"></a>   <span class="op">}</span></span>
+<span id="cb5-7"><a href="#cb5-7"></a></span>
+<span id="cb5-8"><a href="#cb5-8"></a>   <span class="at">@Override</span></span>
+<span id="cb5-9"><a href="#cb5-9"></a>   <span class="kw">public</span> <span class="dt">double</span> <span class="fu">calculateArea</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb5-10"><a href="#cb5-10"></a>      <span class="cf">return</span> PI <span class="op">*</span> radius <span class="op">*</span> radius<span class="op">;</span></span>
+<span id="cb5-11"><a href="#cb5-11"></a>   <span class="op">}</span></span>
+<span id="cb5-12"><a href="#cb5-12"></a></span>
+<span id="cb5-13"><a href="#cb5-13"></a>   <span class="at">@Override</span></span>
+<span id="cb5-14"><a href="#cb5-14"></a>   <span class="kw">public</span> <span class="dt">double</span> <span class="fu">calculatePerimeter</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb5-15"><a href="#cb5-15"></a>      <span class="cf">return</span> <span class="dv">2</span> <span class="op">*</span> PI <span class="op">*</span> radius<span class="op">;</span></span>
+<span id="cb5-16"><a href="#cb5-16"></a>   <span class="op">}</span></span>
+<span id="cb5-17"><a href="#cb5-17"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In this example, the Circle class implements the Shape interface and provides implementations for the calculateArea and calculatePerimeter methods. The Circle class can now be used wherever a Shape is expected. This allows for a degree of polymorphism and code reuse, as the specific type of Shape being used can be changed at runtime, as long as it implements the Shape interface.</p>
+<p>Here’s an example of using an interface in Java:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource java number-lines code-with-copy"><code class="sourceCode java"><span id="cb6-1"><a href="#cb6-1"></a>Javapublic <span class="kw">interface</span> <span class="bu">Shape</span> <span class="op">{</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a>   <span class="dt">double</span> PI <span class="op">=</span> <span class="fl">3.14</span><span class="op">;</span></span>
+<span id="cb6-3"><a href="#cb6-3"></a></span>
+<span id="cb6-4"><a href="#cb6-4"></a>   <span class="dt">double</span> <span class="fu">calculateArea</span><span class="op">();</span></span>
+<span id="cb6-5"><a href="#cb6-5"></a></span>
+<span id="cb6-6"><a href="#cb6-6"></a>   <span class="dt">double</span> <span class="fu">calculatePerimeter</span><span class="op">();</span></span>
+<span id="cb6-7"><a href="#cb6-7"></a><span class="op">}</span></span>
+<span id="cb6-8"><a href="#cb6-8"></a></span>
+<span id="cb6-9"><a href="#cb6-9"></a><span class="kw">public</span> <span class="kw">class</span> Circle <span class="kw">implements</span> <span class="bu">Shape</span> <span class="op">{</span></span>
+<span id="cb6-10"><a href="#cb6-10"></a>   <span class="kw">private</span> <span class="dt">double</span> radius<span class="op">;</span></span>
+<span id="cb6-11"><a href="#cb6-11"></a></span>
+<span id="cb6-12"><a href="#cb6-12"></a>   <span class="kw">public</span> <span class="fu">Circle</span><span class="op">(</span><span class="dt">double</span> radius<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb6-13"><a href="#cb6-13"></a>      <span class="kw">this</span><span class="op">.</span><span class="fu">radius</span> <span class="op">=</span> radius<span class="op">;</span></span>
+<span id="cb6-14"><a href="#cb6-14"></a>   <span class="op">}</span></span>
+<span id="cb6-15"><a href="#cb6-15"></a></span>
+<span id="cb6-16"><a href="#cb6-16"></a>   <span class="at">@Override</span></span>
+<span id="cb6-17"><a href="#cb6-17"></a>   <span class="kw">public</span> <span class="dt">double</span> <span class="fu">calculateArea</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb6-18"><a href="#cb6-18"></a>      <span class="cf">return</span> PI <span class="op">*</span> radius <span class="op">*</span> radius<span class="op">;</span></span>
+<span id="cb6-19"><a href="#cb6-19"></a>   <span class="op">}</span></span>
+<span id="cb6-20"><a href="#cb6-20"></a></span>
+<span id="cb6-21"><a href="#cb6-21"></a>   <span class="at">@Override</span></span>
+<span id="cb6-22"><a href="#cb6-22"></a>   <span class="kw">public</span> <span class="dt">double</span> <span class="fu">calculatePerimeter</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb6-23"><a href="#cb6-23"></a>      <span class="cf">return</span> <span class="dv">2</span> <span class="op">*</span> PI <span class="op">*</span> radius<span class="op">;</span></span>
+<span id="cb6-24"><a href="#cb6-24"></a>   <span class="op">}</span></span>
+<span id="cb6-25"><a href="#cb6-25"></a><span class="op">}</span></span>
+<span id="cb6-26"><a href="#cb6-26"></a></span>
+<span id="cb6-27"><a href="#cb6-27"></a><span class="kw">public</span> <span class="kw">class</span> Main <span class="op">{</span></span>
+<span id="cb6-28"><a href="#cb6-28"></a>   <span class="kw">public</span> <span class="dt">static</span> <span class="dt">void</span> <span class="fu">main</span><span class="op">(</span><span class="bu">String</span><span class="op">[]</span> args<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb6-29"><a href="#cb6-29"></a>      <span class="bu">Shape</span> shape <span class="op">=</span> <span class="kw">new</span> <span class="fu">Circle</span><span class="op">(</span><span class="fl">5.0</span><span class="op">);</span></span>
+<span id="cb6-30"><a href="#cb6-30"></a>      <span class="bu">System</span><span class="op">.</span><span class="fu">out</span><span class="op">.</span><span class="fu">println</span><span class="op">(</span><span class="st">"Area of the circle: "</span> <span class="op">+</span> shape<span class="op">.</span><span class="fu">calculateArea</span><span class="op">());</span></span>
+<span id="cb6-31"><a href="#cb6-31"></a>      <span class="bu">System</span><span class="op">.</span><span class="fu">out</span><span class="op">.</span><span class="fu">println</span><span class="op">(</span><span class="st">"Perimeter of the circle: "</span> <span class="op">+</span> shape<span class="op">.</span><span class="fu">calculatePerimeter</span><span class="op">());</span></span>
+<span id="cb6-32"><a href="#cb6-32"></a>   <span class="op">}</span></span>
+<span id="cb6-33"><a href="#cb6-33"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In this example, we first define the Shape interface with two methods calculateArea and calculatePerimeter. Then, we create a class Circle that implements the Shape interface and provides implementations for the methods defined in the interface. Finally, in the Main class, we create an object of the Circle class and use it as if it were an object of the Shape interface.</p>
+<p>You can also have multiple classes implementing the same interface, and you can use them interchangeably as long as they are referenced as objects of the interface type.</p>
 
 
 </section>
@@ -380,4 +825,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

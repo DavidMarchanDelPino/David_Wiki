@@ -72,3 +72,39 @@ img {
     color: #ebedf1;
     border-radius: 10px 10px 10px 10px;
 }
+
+/*CSS David*/
+
+.table_Colored_Red{
+    color: red; 
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.table_Colored_Blue{
+    color: blue; 
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+.table_Colored_Magenta{
+    color: magenta; 
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+.table_Colored_Green{
+    color: greenyellow; 
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.code-block {
+    font-size: 12px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
