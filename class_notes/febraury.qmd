@@ -416,3 +416,39 @@ public class Main {
 In this example, we first define the Shape interface with two methods calculateArea and calculatePerimeter. Then, we create a class Circle that implements the Shape interface and provides implementations for the methods defined in the interface. Finally, in the Main class, we create an object of the Circle class and use it as if it were an object of the Shape interface.
 
 You can also have multiple classes implementing the same interface, and you can use them interchangeably as long as they are referenced as objects of the interface type.
+
+
+## **Class 13/02/2023: JavaSE **
+
+Spirng --> lo inicializamos con el spring init. con el lombok, junit, thymeleaf, spring web, spring boot devtools, h2 database, faker(a posteriori)
+
+en el intelljidea lo abrimos (ahora en el)
+
+creamos la aclase book controller
+
+```java
+//HelloController.java
+@RestController //publica datos como apirest
+public class HelloRestController{
+
+  @GetMapping("/hello")
+  public String helloWorld(){
+    return "Hello world";
+  }
+}
+
+//HelloWebController.java
+@Controller
+public class HelloController{
+
+  //path
+  @RequestMapping("/helloweb")
+  public String helloHandler(){
+    return "hi.html";//es un path
+
+  }
+}
+```
+en el dominio resources colocaremos todo lo static(video, sonido, imagenes)
+
+ene el dominio template iran los templates de los datos a entregar
