@@ -187,6 +187,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul>
   <li><a href="#interfaces" id="toc-interfaces" class="nav-link" data-scroll-target="#interfaces"><strong>Interfaces</strong></a></li>
   </ul></li>
+  <li><a href="#class-13022023-javase" id="toc-class-13022023-javase" class="nav-link" data-scroll-target="#class-13022023-javase"><strong>Class 13/02/2023: JavaSE </strong></a></li>
+  <li><a href="#class-15022023" id="toc-class-15022023" class="nav-link" data-scroll-target="#class-15022023"><strong>Class 15/02/2023: </strong></a></li>
+  <li><a href="#class-20022023-spring" id="toc-class-20022023-spring" class="nav-link" data-scroll-target="#class-20022023-spring"><strong>Class 20/02/2023: Spring</strong></a></li>
+  <li><a href="#class-22022023-spring" id="toc-class-22022023-spring" class="nav-link" data-scroll-target="#class-22022023-spring"><strong>Class 22/02/2023: Spring</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -682,9 +686,75 @@ Sandbox
 <span id="cb6-33"><a href="#cb6-33"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>In this example, we first define the Shape interface with two methods calculateArea and calculatePerimeter. Then, we create a class Circle that implements the Shape interface and provides implementations for the methods defined in the interface. Finally, in the Main class, we create an object of the Circle class and use it as if it were an object of the Shape interface.</p>
 <p>You can also have multiple classes implementing the same interface, and you can use them interchangeably as long as they are referenced as objects of the interface type.</p>
-
-
 </section>
+</section>
+<section id="class-13022023-javase" class="level2">
+<h2 class="anchored" data-anchor-id="class-13022023-javase"><strong>Class 13/02/2023: JavaSE </strong></h2>
+<p>Spirng –&gt; lo inicializamos con el spring init. con el lombok, junit, thymeleaf, spring web, spring boot devtools, h2 database, faker(a posteriori)</p>
+<p>en el intelljidea lo abrimos (ahora en el)</p>
+<p>creamos la aclase book controller</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource java number-lines code-with-copy"><code class="sourceCode java"><span id="cb7-1"><a href="#cb7-1"></a><span class="co">//HelloController.java</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="at">@RestController</span> <span class="co">//publica datos como apirest</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="kw">public</span> <span class="kw">class</span> HelloRestController<span class="op">{</span></span>
+<span id="cb7-4"><a href="#cb7-4"></a></span>
+<span id="cb7-5"><a href="#cb7-5"></a>  <span class="at">@GetMapping</span><span class="op">(</span><span class="st">"/hello"</span><span class="op">)</span></span>
+<span id="cb7-6"><a href="#cb7-6"></a>  <span class="kw">public</span> <span class="bu">String</span> <span class="fu">helloWorld</span><span class="op">(){</span></span>
+<span id="cb7-7"><a href="#cb7-7"></a>    <span class="cf">return</span> <span class="st">"Hello world"</span><span class="op">;</span></span>
+<span id="cb7-8"><a href="#cb7-8"></a>  <span class="op">}</span></span>
+<span id="cb7-9"><a href="#cb7-9"></a><span class="op">}</span></span>
+<span id="cb7-10"><a href="#cb7-10"></a></span>
+<span id="cb7-11"><a href="#cb7-11"></a><span class="co">//HelloWebController.java</span></span>
+<span id="cb7-12"><a href="#cb7-12"></a><span class="at">@Controller</span></span>
+<span id="cb7-13"><a href="#cb7-13"></a><span class="kw">public</span> <span class="kw">class</span> HelloController<span class="op">{</span></span>
+<span id="cb7-14"><a href="#cb7-14"></a></span>
+<span id="cb7-15"><a href="#cb7-15"></a>  <span class="co">//path</span></span>
+<span id="cb7-16"><a href="#cb7-16"></a>  <span class="at">@RequestMapping</span><span class="op">(</span><span class="st">"/helloweb"</span><span class="op">)</span></span>
+<span id="cb7-17"><a href="#cb7-17"></a>  <span class="kw">public</span> <span class="bu">String</span> <span class="fu">helloHandler</span><span class="op">(){</span></span>
+<span id="cb7-18"><a href="#cb7-18"></a>    <span class="cf">return</span> <span class="st">"hi.html"</span><span class="op">;</span><span class="co">//es un path</span></span>
+<span id="cb7-19"><a href="#cb7-19"></a></span>
+<span id="cb7-20"><a href="#cb7-20"></a>  <span class="op">}</span></span>
+<span id="cb7-21"><a href="#cb7-21"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>en el dominio resources colocaremos todo lo static(video, sonido, imagenes)</p>
+<p>en el dominio template iran los templates de los datos a entregar</p>
+</section>
+<section id="class-15022023" class="level2">
+<h2 class="anchored" data-anchor-id="class-15022023"><strong>Class 15/02/2023: </strong></h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource java number-lines code-with-copy"><code class="sourceCode java"><span id="cb8-1"><a href="#cb8-1"></a><span class="kw">public</span> <span class="dt">static</span> <span class="bu">String</span> <span class="fu">bookReturn</span><span class="op">(</span><span class="st">"..."</span><span class="op">,</span>reader<span class="op">){</span></span>
+<span id="cb8-2"><a href="#cb8-2"></a>  <span class="co">//borrow=null</span></span>
+<span id="cb8-3"><a href="#cb8-3"></a>  <span class="co">//find Borrow with id[Book,User,Borrow]? or creating a method called public Static Borrow findBorrowByBook and the same with User</span></span>
+<span id="cb8-4"><a href="#cb8-4"></a>  <span class="co">//SetStatus&amp;check</span></span>
+<span id="cb8-5"><a href="#cb8-5"></a>  <span class="co">//return String</span></span>
+<span id="cb8-6"><a href="#cb8-6"></a><span class="op">}</span></span>
+<span id="cb8-7"><a href="#cb8-7"></a></span>
+<span id="cb8-8"><a href="#cb8-8"></a><span class="kw">public</span> Static Borrow <span class="fu">findBorrowByBook</span><span class="op">(){</span></span>
+<span id="cb8-9"><a href="#cb8-9"></a></span>
+<span id="cb8-10"><a href="#cb8-10"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="class-20022023-spring" class="level2">
+<h2 class="anchored" data-anchor-id="class-20022023-spring"><strong>Class 20/02/2023: Spring</strong></h2>
+<p>Spring Boot Resources at wiki AlbertProfe</p>
+<p><strong>Must study Git</strong> <a href="https://learngitbranching.js.org/?locale=es_ES">Learn Git using a web with a graphical interface</a></p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>Abstract classes</strong> not creates objects of an a project with interfaces</p></li>
+<li><p>If <strong>creates objects</strong> it is a <strong>superclass</strong></p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="class-22022023-spring" class="level2">
+<h2 class="anchored" data-anchor-id="class-22022023-spring"><strong>Class 22/02/2023: Spring</strong></h2>
+
+
 </section>
 
 </main> <!-- /main -->
