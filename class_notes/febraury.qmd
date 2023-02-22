@@ -451,4 +451,36 @@ public class HelloController{
 ```
 en el dominio resources colocaremos todo lo static(video, sonido, imagenes)
 
-ene el dominio template iran los templates de los datos a entregar
+en el dominio template iran los templates de los datos a entregar
+
+
+## **Class 15/02/2023: **
+
+```Java
+public static String bookReturn("...",reader){
+  //borrow=null
+  //find Borrow with id[Book,User,Borrow]? or creating a method called public Static Borrow findBorrowByBook and the same with User
+  //SetStatus&check
+  //return String
+}
+
+public Static Borrow findBorrowByBook(){
+
+}
+```
+
+## **Class 20/02/2023: Spring**
+
+Spring Boot Resources at wiki AlbertProfe
+
+**Must study Git**
+[Learn Git using a web with a graphical interface](https://learngitbranching.js.org/?locale=es_ES)
+
+:::{.callout-note}
+- **Abstract classes** not creates objects of an a project with interfaces
+
+- If **creates objects** it is a **superclass**
+:::
+
+## **Class 22/02/2023: Spring**
+
