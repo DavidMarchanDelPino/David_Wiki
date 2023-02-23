@@ -4,7 +4,7 @@ title: Clases
 ![](../img/clases.png){fig-align="center"}
 
 ::: {.callout-note}
-On this page yoy can acces to the diferent class notes splitting it though months
+On this page you can acces to the diferent class notes splitting it though months
 :::
 
 ## December 2022

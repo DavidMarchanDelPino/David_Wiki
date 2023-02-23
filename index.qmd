@@ -12,12 +12,22 @@ title: "Author: David Marchan del Pino"
 
 [Learn Git using a web with a graphical interface](https://learngitbranching.js.org/?locale=es_ES)
 
-[Fork of the repo SCRUM Project: ](https://github.com/daviddevops96/gameBoardStats.git) Implemented the User, UserManager & Login with the test. I implemented the solution with the use of patterns of the labs instead of doing the labs.
+# **Extras**
 
-### My custom quarto .yml 
+## SCRUM
+
+[Repo SCRUM Project: ](https://github.com/cifoteam/gameBoardStats.git) 
+
+Implemented the User, UserManager & Login with the test. I implemented the solution with the use of patterns of the labs instead of doing the labs.
+
+## My custom quarto .yml 
 
 ![](img/home/yml.png){fig-align="center"}
 
-### Little CSS before start with React
+## Little CSS before start with React
 
 ![](img/home/CSS-David.png){fig-align="center"}
+
+## Mooc progress
+
+![](img/mooc-progress.png){fig-align="center"}
