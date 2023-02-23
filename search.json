@@ -7,11 +7,25 @@
     "text": "///Imagen mia\nlink al repo GH"
   },
   {
-    "objectID": "class_notes/clases.html",
-    "href": "class_notes/clases.html",
+    "objectID": "class_notes/clases.html#december-2022",
+    "href": "class_notes/clases.html#december-2022",
     "title": "Clases",
-    "section": "",
-    "text": "December 2022\nJanuary 2023\nFebraury 2023"
+    "section": "December 2022",
+    "text": "December 2022\nLink to the page"
+  },
+  {
+    "objectID": "class_notes/clases.html#january-2023",
+    "href": "class_notes/clases.html#january-2023",
+    "title": "Clases",
+    "section": "January 2023",
+    "text": "January 2023\nLink to the page"
+  },
+  {
+    "objectID": "class_notes/clases.html#febraury-2023",
+    "href": "class_notes/clases.html#febraury-2023",
+    "title": "Clases",
+    "section": "Febraury 2023",
+    "text": "Febraury 2023\nLink to the page"
   },
   {
     "objectID": "class_notes/december.html#class-12122022-introduction-who-will-you-marry",
@@ -179,14 +193,21 @@
     "href": "class_notes/febraury.html#class-22022023-spring",
     "title": "Febraury 2023",
     "section": "Class 22/02/2023: Spring",
-    "text": "Class 22/02/2023: Spring"
+    "text": "Class 22/02/2023: Spring\nFirst picnic of a project SpringBoot\nOn a html file we define domains, the html ask a server with an a general @Controller or more controller like @UserController @LibrarianController … that manages a dB\nOn the example of the library lab we have the domains /user (private) /librarian (private) /web (part public on the web that all users can see without login)\nFor example on user of the Server that implements methods of the controller listen requests and sends a response with api-rest html or websocket …\n\nHow to create a dB quickly for testing\nH2 Database Engine(Java SQL database)\nHay que pulsar en el icono y crear una nueva dB para crear una consola que se ejecutará en web como localhost (debemos configurar la url o copiar de la salida en consola en local) tras crear la dB pegamos la url y accedemos a la web. Usamos “Generic H2 (Server)” en JDBC URL usamos “jdbc:h2:[url]”\nOn our projeject springboot we use the application.propierties to modify the parameters. For example specify the URL of our database\n.DLL –> first of all"
+  },
+  {
+    "objectID": "class_notes/febraury.html#class-23022023-spring",
+    "href": "class_notes/febraury.html#class-23022023-spring",
+    "title": "Febraury 2023",
+    "section": "Class 23/02/2023: Spring",
+    "text": "Class 23/02/2023: Spring"
   },
   {
     "objectID": "index.html#what-you-can-fin-on-this-quarto-web",
     "href": "index.html#what-you-can-fin-on-this-quarto-web",
     "title": "Author: David Marchan del Pino",
     "section": "What you can fin on this Quarto web?",
-    "text": "What you can fin on this Quarto web?\n\n\nMy course notes fom the CIFO course\n\n\nThe resolution of the laboratories and the links of my repos with the code\n\n\nTo-do task that I consider or other task provided by the profesor (not implemented)\n\n\nSome tools that I use to perform my solutions and other functionalities that I am curious abaut (to-do)\n\n\nLearn Git using a web with a graphical interface"
+    "text": "What you can fin on this Quarto web?\n\n\nMy course notes fom the CIFO course\n\n\nThe resolution of the laboratories and the links of my repos with the code\n\n\nTo-do task that I consider or other task provided by the profesor (not implemented)\n\n\nSome tools that I use to perform my solutions and other functionalities that I am curious (to-do)\n\n\nLearn Git using a web with a graphical interface\nFork of the repo SCRUM Project: Implemented the User, UserManager & Login with the test. I implemented the solution with the use of patterns of the labs instead of doing the labs.\n\nMy custom quarto .yml\n\n\n\n\n\n\n\nLittle CSS before start with React"
   },
   {
     "objectID": "labs/Lab-MD01-1.html",
