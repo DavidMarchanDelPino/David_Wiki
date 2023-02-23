@@ -1,9 +1,17 @@
 ---
-title: Clases
+title: Clases 
 ---
+![](../img/clases.png){fig-align="center"}
 
-[December 2022](/class_notes/december.qmd)
+::: {.callout-note}
+On this page yoy can acces to the diferent class notes splitting it though months
+:::
 
-[January 2023](/class_notes/january.qmd)
+## December 2022
+[Link to the page](/class_notes/december.qmd)
 
-[Febraury 2023](/class_notes/febraury.qmd)
+## January 2023
+[Link to the page](/class_notes/january.qmd)
+
+## Febraury 2023
+[Link to the page](/class_notes/febraury.qmd)

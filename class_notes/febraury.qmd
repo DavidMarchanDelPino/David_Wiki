@@ -484,3 +484,34 @@ Spring Boot Resources at wiki AlbertProfe
 
 ## **Class 22/02/2023: Spring**
 
+First picnic of a project SpringBoot
+
+On a html file we define domains, the html ask a server with an a general @Controller or more controller like @UserController @LibrarianController ... that manages a dB  
+
+On the example of the library lab we have the domains 
+/user (private)
+/librarian (private)
+/web (part public on the web that all users can see without login)
+
+For example on user of the Server that implements methods of the controller listen requests and sends a response with api-rest html or websocket ...
+
+### **How to create a dB quickly for testing**
+
+H2 Database Engine(Java SQL database)
+
+Hay que pulsar en el icono y crear una nueva dB para crear una consola que se ejecutará en web como localhost (debemos configurar la url o copiar de la salida en consola en local) tras crear la dB pegamos la url y accedemos a la web. Usamos "Generic H2 (Server)" en JDBC URL usamos "jdbc:h2:[url]"
+
+On our projeject springboot we use the application.propierties to modify the parameters. For example specify the URL of our database
+
+.DLL --> first of all
+
+
+## **Class 23/02/2023: Spring**
+
+
+
+
+
+
+
+
