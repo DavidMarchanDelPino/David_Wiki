@@ -14,14 +14,7 @@ format:
 ---
 
 
-Observable JS
-
-
-
- Api REST call to server and render the data from JSON
-
- 
-
+## Observable JS
 
 
 ```{ojs}
@@ -37,16 +30,17 @@ i = {
 i 
 ```
 
-```{python}
-import requests
 
-# Make a GET request to the API endpoint
-response = requests.get("https://api.example.com/data")
+ ## Api REST call to server and render the data from JSON
 
+ 
+
+
+```{ojs}
 d3 = require('d3')
 
 contributors = await d3.json(
-  "https://api.github.com/repos/pandas-dev/pandas/stats/contributors"
+  "https://api.github.com/repos/albertprofe/wiki/stats/contributors"
 )
 
 commits = contributors.map(contributor => {
@@ -58,15 +52,8 @@ commits = contributors.map(contributor => {
     value: contributor.total
   }
 })
-# Check if the request was successful (status code 200)
-if response.status_code == 200:
-    # Parse the JSON response
-    data = response.json()
-    
-    # Print the data
-    for item in data:
-        print(item)
-else:
-    print("Error: API request failed.")
+
+
+Inputs.table(commits, { sort: "value", reverse: true })
 ```
 
