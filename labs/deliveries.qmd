@@ -1,0 +1,72 @@
+---
+title: "Quarto Markdown: code & data"
+subtitle: Code (4/7)
+author: albertprofe
+date: "06/01/2021"
+date-modified: last-modified
+date-format: full
+description: Code on your Quarto web
+categories: [markup, qmd, quarto, python]
+toc: true
+number-sections: true
+format:
+  html
+---
+
+
+Observable JS
+
+
+
+ Api REST call to server and render the data from JSON
+
+ 
+
+
+
+```{ojs}
+i = {
+  let i = 0;
+  while (true) {
+    yield ++i;
+  }
+}
+```
+
+```{ojs}
+i 
+```
+
+```{python}
+import requests
+
+# Make a GET request to the API endpoint
+response = requests.get("https://api.example.com/data")
+
+d3 = require('d3')
+
+contributors = await d3.json(
+  "https://api.github.com/repos/pandas-dev/pandas/stats/contributors"
+)
+
+commits = contributors.map(contributor => {
+  const author = contributor.author;
+  return {
+    name: author.login,
+    title: author.login,
+    group: author.type,
+    value: contributor.total
+  }
+})
+# Check if the request was successful (status code 200)
+if response.status_code == 200:
+    # Parse the JSON response
+    data = response.json()
+    
+    # Print the data
+    for item in data:
+        print(item)
+else:
+    print("Error: API request failed.")
+```
+

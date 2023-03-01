@@ -2,8 +2,11 @@
 title: "About"
 ---
 
-///Imagen mia
+Graduated in telecommunications engineering specializing in audiovisual systems at UPC of Barcelona and with the corresponding final degree work based on deep learning (Pytorch). My professional career has consisted in network deployment and maintenance, R&D development and Linux/Windows server maintenance/deployment.
 
-link al repo GH
+[My GH](https://github.com/daviddevops96)
+
+
+**My Email** david.marchan.devops@gmail.com
 
 
