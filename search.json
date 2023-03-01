@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "///Imagen mia\nlink al repo GH"
+    "text": "Graduated in telecommunications engineering specializing in audiovisual systems at UPC of Barcelona and with the corresponding final degree work based on deep learning (Pytorch). My professional career has consisted in network deployment and maintenance, R&D development and Linux/Windows server maintenance/deployment.\nMy GH\nMy Email david.marchan.devops@gmail.com"
   },
   {
     "objectID": "class_notes/clases.html#december-2022",
@@ -238,6 +238,13 @@
     "text": "Mooc progress"
   },
   {
+    "objectID": "index.html#deliveries",
+    "href": "index.html#deliveries",
+    "title": "Author: David Marchan del Pino",
+    "section": "Deliveries",
+    "text": "Deliveries\nMy Deliveries of the first pack, the exercises are not very elaborate but meet the specifications."
+  },
+  {
     "objectID": "labs/Lab-MD01-1.html",
     "href": "labs/Lab-MD01-1.html",
     "title": "Lab#MD01-1",
@@ -250,6 +257,41 @@
     "title": "Labs",
     "section": "",
     "text": "Lab#MD01-1"
+  },
+  {
+    "objectID": "labs/deliveries.html",
+    "href": "labs/deliveries.html",
+    "title": "Quarto Markdown: code & data",
+    "section": "",
+    "text": "i = {\n  let i = 0;\n  while (true) {\n    yield ++i;\n  }\n}\n\n\n\n\n\n\n\ni"
+  },
+  {
+    "objectID": "labs/deliveries.html#api-rest-call-to-server-and-render-the-data-from-json",
+    "href": "labs/deliveries.html#api-rest-call-to-server-and-render-the-data-from-json",
+    "title": "Quarto Markdown: code & data",
+    "section": "2 Api REST call to server and render the data from JSON",
+    "text": "2 Api REST call to server and render the data from JSON\n\nd3 = require('d3')\n\ncontributors = await d3.json(\n  \"https://api.github.com/repos/albertprofe/wiki/stats/contributors\"\n)\n\ncommits = contributors.map(contributor => {\n  const author = contributor.author;\n  return {\n    name: author.login,\n    title: author.login,\n    group: author.type,\n    value: contributor.total\n  }\n})\n\n\nInputs.table(commits, { sort: \"value\", reverse: true })"
+  },
+  {
+    "objectID": "labs/deliveries.html#listing",
+    "href": "labs/deliveries.html#listing",
+    "title": "Quarto Markdown: code & data",
+    "section": "3 Listing",
+    "text": "3 Listing\nThis is my test of Listing with Quarto =)"
+  },
+  {
+    "objectID": "labs/listing.html",
+    "href": "labs/listing.html",
+    "title": "David Listing",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nLab#MD01-1\n\n\n\n\n\n\nLabs\n\n\n\n\n\n\nQuarto Markdown: code & data\n\n\nDavid Marchan\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "labs/listing.html#class-notes",
+    "href": "labs/listing.html#class-notes",
+    "title": "David Listing",
+    "section": "Class Notes",
+    "text": "Class Notes"
   },
   {
     "objectID": "sandbox/sandbox.html",
