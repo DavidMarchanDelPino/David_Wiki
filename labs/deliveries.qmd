@@ -1,8 +1,7 @@
 ---
 title: "Quarto Markdown: code & data"
 subtitle: Code (4/7)
-author: albertprofe
-date: "06/01/2021"
+author: David Marchan
 date-modified: last-modified
 date-format: full
 description: Code on your Quarto web
@@ -31,10 +30,7 @@ i
 ```
 
 
- ## Api REST call to server and render the data from JSON
-
- 
-
+## Api REST call to server and render the data from JSON
 
 ```{ojs}
 d3 = require('d3')
@@ -57,3 +53,6 @@ commits = contributors.map(contributor => {
 Inputs.table(commits, { sort: "value", reverse: true })
 ```
 
+## Listing
+
+This is my test of [Listing](listing.qmd) with Quarto =)

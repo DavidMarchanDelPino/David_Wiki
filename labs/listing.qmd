@@ -1,0 +1,24 @@
+
+---
+title: David Listing
+listing: 
+  - id: lab-reports
+    contents: "*.qmd"
+    type: table
+  - id: class_notes
+    contents: "../class_notes/*.qmd"
+    type: table
+  - id: index
+    contents: "../index.qmd"
+
+---
+
+## Lab Reports
+
+:::{#lab-reports}
+:::
+
+## Class Notes
+
+:::{#Class_Notes}
+:::

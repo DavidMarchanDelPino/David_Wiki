@@ -31,3 +31,7 @@ Implemented the User, UserManager & Login with the test. I implemented the solut
 ## Mooc progress
 
 ![](img/mooc-progress.png){fig-align="center"}
+
+## Deliveries
+
+My [Deliveries](./labs/deliveries.qmd) of the first pack, the exercises are not very elaborate but meet the specifications.
