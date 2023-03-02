@@ -1,5 +1,16 @@
 ---
 title: Febraury 2023
+author: David Marchan
+data: not remember
+date-modified: last-modified
+date-format: full
+description: My febraury clases but not finished
+categories: [markup, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
+
 ---
 
 ![](../img/February.jpeg){fig-align="center" width=100%}

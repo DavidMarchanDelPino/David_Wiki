@@ -1,5 +1,16 @@
 ---
 title: "January 2023"
+author: David Marchan
+data: not remember
+date-modified: last-modified
+date-format: full
+description: My january clases but not finished
+categories: [markup, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
+
 ---
 
 ![](../img/january.png){fig-align="center" width=50%}

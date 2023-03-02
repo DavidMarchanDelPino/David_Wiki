@@ -5,11 +5,15 @@ listing:
   - id: lab-reports
     contents: "*.qmd"
     type: table
+    fields: [image, date, title, author, reading-time]
   - id: class_notes
     contents: "../class_notes/*.qmd"
     type: table
+    fields: [image, date, title, author, reading-time]
   - id: index
     contents: "../index.qmd"
+    type: table
+    fields: [image, date, title, author, reading-time]
 
 ---
 
@@ -20,5 +24,10 @@ listing:
 
 ## Class Notes
 
-:::{#Class_Notes}
+:::{#class_notes}
+:::
+
+## Index 
+
+:::{#index}
 :::

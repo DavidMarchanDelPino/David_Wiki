@@ -1,5 +1,16 @@
 ---
 title: "December 2022"
+author: David Marchan
+data: not remember
+date-modified: last-modified
+date-format: full
+description: My december clases but not finished
+categories: [markup, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
+
 ---
 
 ![](../img/december.png){fig-align="center"}

@@ -1,5 +1,15 @@
 ---
 title: Labs
+author: David Marchan
+data: 02-03-2023
+date-modified: last-modified
+date-format: full
+description: Labs that I tested
+categories: [markup, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 [Lab#MD01-1](/labs/Lab-MD01-1.qmd)

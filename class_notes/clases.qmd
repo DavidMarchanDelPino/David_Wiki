@@ -1,5 +1,15 @@
 ---
 title: Clases 
+author: David Marchan
+data: not remember
+date-modified: last-modified
+date-format: full
+description: My class index
+categories: [markup, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
 ---
 ![](../img/clases.png){fig-align="center"}
 

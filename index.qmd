@@ -1,5 +1,16 @@
 ---
 title: "Author: David Marchan del Pino"
+author: David Marchan
+data: not remember
+date-modified: last-modified
+date-format: full
+description: My Index but not finished
+categories: [markup, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
+
 ---
 
 ![](img/home/desarrollo-web-3.jpg)

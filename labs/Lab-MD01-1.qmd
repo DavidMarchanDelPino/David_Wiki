@@ -1,5 +1,15 @@
 ---
 title: "Lab#MD01-1"
+author: David Marchan
+data: Probably december
+date-modified: last-modified
+date-format: full
+description: My output console from the test
+categories: [markup, qmd, quarto]
+toc: true
+number-sections: true
+format:
+  html
 ---
 
 ## Resolution
